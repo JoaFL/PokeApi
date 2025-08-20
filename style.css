@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.container {
+  background: linear-gradient(to top, white 50%, red 50%);
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border:black solid;
+}
+
+
+input {
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+  border:black solid;
+}
+
+
+button {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border:black solid;
+}
+
+
+#pokemonCard {
+  margin-top: 20px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#pokemonStats ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+
+#pokemonStats li {
+  background-color: #eee;
+  margin: 4px 0;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+
+
+
+#pokemonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 140px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+
+#geracaoSelect {
+    background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

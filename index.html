@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PokéAPI Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Buscar Pokémon</h1>
+    <input type="text" id="pokemonInput" placeholder="Digite o nome ou ID do Pokémon">
+    <button onclick="buscarPokemon()">Buscar</button>
+   
+    <div id="pokemonCard" class="hidden">
+        <h2 id="pokemonName"></h2>
+        <img id="pokemonImage" src="" alt="Imagem do Pokémon">
+       
+        <p><strong>Tipo:</strong> <span id="pokemonType"></span></p>
+        <p><strong>Altura:</strong> <span id="pokemonHeight"></span></p>
+        <p><strong>Peso:</strong> <span id="pokemonWeight"></span></p>
+        <p><strong>Habilidades:</strong> <span id="pokemonAbilities"></span></p>
+
+
+        <div id="pokemonStats">
+            <h3>Status Base</h3>
+            <ul id="statsList"></ul>
+        </div>
+    </div>
+  </div>
+  <label for="geracaoSelect">Escolha uma geração:</label>
+    <select id="geracaoSelect" onchange="carregarGeracao()">
+      <option value="1">Geração I</option>
+      <option value="2">Geração II</option>
+      <option value="3">Geração III</option>
+      <option value="4">Geração IV</option>
+      <option value="5">Geração V</option>
+      <option value="6">Geração VI</option>
+      <option value="7">Geração VII</option>
+      <option value="8">Geração VIII</option>
+      <option value="9">Geração IX</option>
+    </select>
+
+
+    <div id="pokemonContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
