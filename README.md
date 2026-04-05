@@ -11,6 +11,6 @@ CSS;
 HTML;  
 JavaScript;
 
-Créditos:
+### Créditos:  
 API: [PokéAPI](https://pokeapi.co)  
 Instrução e código base: [Bruno Schmitz](https://github.com/BrunoSchmitz4)
